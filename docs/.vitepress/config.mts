@@ -33,7 +33,7 @@ export default defineConfig({
         {
           text: '群赛',
           items: [
-            { text: 'S2', items: [{ text: '图池', link: '/activity/vivo50/S2/maps' }, { text: '分队', link: '/activity/vivo50/S2/teams' }]},
+            { text: 'S2', items: [{ text: '图池', link: '/activity/vivo50/S2/maps' }, { text: '分队', link: '/activity/vivo50/S2/teams' }, { text: '结果', link: '/activity/vivo50/S2/result' }]},
           ]
         },
         {
