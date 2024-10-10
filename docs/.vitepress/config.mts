@@ -8,7 +8,14 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '介绍', link: '/guide/' },
-      { text: '活动一览', link: '/activity/' },
+      {
+        text: '活动一览',
+        items: [
+          { text: '介绍', link: '/activity/' },
+          { text: '群赛', link: '/activity/vivo50/' },
+          { text: '总力战', link: '/activity/Total_Assault/' }
+        ]
+      },
       { text: '加入赛群', link: 'https://qm.qq.com/q/RjaHv7ceWe' }
     ],
     sidebar: {
@@ -33,6 +40,7 @@ export default defineConfig({
         {
           text: '群赛',
           items: [
+            { text: 'vivo50介绍', link: '/activity/vivo50/' },
             { text: 'S2', items: [{ text: '图池', link: '/activity/vivo50/S2/maps' }, { text: '分队', link: '/activity/vivo50/S2/teams' }, { text: '结果', link: '/activity/vivo50/S2/result' }]},
           ]
         },
